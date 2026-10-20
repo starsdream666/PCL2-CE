@@ -3245,6 +3245,10 @@
     <sys:String x:Key="Setup.Update.Error.NetworkFailed">Unable to retrieve latest version information. Please check your network connection.</sys:String>
     <sys:String x:Key="Setup.Update.Install">Download and install</sys:String>
     <sys:String x:Key="Setup.Update.Latest">Already up to date</sys:String>
+    <sys:String x:Key="Setup.Update.Offline.Desc">Personal branch build with update checking and online updates removed</sys:String>
+    <sys:String x:Key="Setup.Update.Offline.Note">This build never checks for new versions online and never downloads or installs official updates. Replace the executable manually if you need a newer build.</sys:String>
+    <sys:String x:Key="Setup.Update.Offline.Title">Updates disabled</sys:String>
+    <sys:String x:Key="Setup.Update.Offline.VersionCode">Version {0} ({1} build)</sys:String>
     <sys:String x:Key="Setup.Update.MirrorChyanCdk.Get">Get CDK</sys:String>
     <sys:String x:Key="Setup.Update.MirrorChyanCdk.Label">MirrorChyan CDK</sys:String>
     <sys:String x:Key="Setup.Update.MirrorChyanCdk.ToolTip">MirrorChyan (mirrorchyan.com) is a paid third-party application distribution platform that provides high-speed download sources in China.&#xA;This is an optional service. Leaving the CDK blank does not affect normal use or updates.&#xA;If you have a MirrorChyan CDK, you can provide it to PCL CE, and the launcher will prioritize its high-speed download source for software updates. This can also help reduce pressure on the community update server...</sys:String>
