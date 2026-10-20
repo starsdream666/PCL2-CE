@@ -179,13 +179,13 @@ public static class ProfileUi
         return uuid;
     }
 
+    /// <summary>
+    ///     是否可以创建微软以外的档案（离线、第三方登录）。
+    ///     本分支已移除“必须先登录正版档案”的限制：任何用户都可以自由创建离线或第三方档案。
+    /// </summary>
     public static bool CanCreateOtherProfile()
     {
-#if DEBUG || DEBUGCI
         return true;
-#else
-        return ProfileService.HasMicrosoftProfile || (Lang.IsFeaturesUnrestricted && ProfileService.Profiles.Count > 0) || NetworkHelper.IsNetworkAvailable() is false;
-#endif
     }
 
     public static void CreateProfile()
